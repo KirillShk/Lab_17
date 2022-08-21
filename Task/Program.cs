@@ -10,16 +10,16 @@ namespace Task
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("Введите номер счета");
-             string numaccount = Console.ReadLine();
-             Console.WriteLine("Введите ФИО");
-             string accountname = Console.ReadLine();
-             Console.WriteLine("Введите баланс счета");
-             double balanceaccount = Convert.ToDouble(Console.ReadLine());
-             Console.WriteLine("Введите тип счета");
-             int typeaccountInt = Convert.ToInt32(Console.ReadLine());
-             Bank_account<int> client1 = new Bank_account<int>(numaccount, accountname, balanceaccount, typeaccountInt);
-             Console.WriteLine(client1.GetInfo());
+            Console.WriteLine("Введите номер счета");
+            string numaccount = Console.ReadLine();
+            Console.WriteLine("Введите ФИО");
+            string accountname = Console.ReadLine();
+            Console.WriteLine("Введите баланс счета");
+            double balanceaccount = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите тип счета");
+            int typeaccountInt = Convert.ToInt32(Console.ReadLine());
+            Bank_account<int> client1 = new Bank_account<int>(numaccount, accountname, balanceaccount, typeaccountInt);
+            Console.WriteLine(client1.GetInfo());
 
             Console.WriteLine("Введите номер счета");
             numaccount = Console.ReadLine();
