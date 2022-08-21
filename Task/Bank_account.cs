@@ -13,6 +13,7 @@ namespace Task
         private string Name { get; set; }
         T Typeaccount { get; set; }
         
+
         public string Numaccount
         {
             get { return numAccount; }
